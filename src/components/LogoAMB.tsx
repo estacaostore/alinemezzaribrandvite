@@ -8,6 +8,7 @@ function Logo() {
       height="56"
       fill="none"
       viewBox="0 0 100 56"
+      className="md:w-[4rem]"
     >
       <path
         fill="#010202"

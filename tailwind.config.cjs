@@ -3,14 +3,21 @@ module.exports = {
   content: ["src/**/*.tsx"],
   darkMode: false, //or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        16: "1fr max-content",
+      },
+    },
+    fontFamily: {
+      sans: "Oswald, sans-serif",
+    },
   },
   variants: {
     extend: {
-      display: ['group-focus'],
-      opacity: ['group-focus'],
-      inset: ['group-focus']
-    }
+      display: ["group-focus"],
+      opacity: ["group-focus"],
+      inset: ["group-focus"],
+    },
   },
   plugins: [],
-}
+};
