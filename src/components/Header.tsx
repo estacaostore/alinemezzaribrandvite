@@ -16,15 +16,7 @@ export function Header() {
   }, []);
 
   return (
-    <header
-      className={className(
-        "fixed top-0 left-0 w-full h-20 items-center p-4 z-50",
-        {
-          "bg-white shadow-md": scrollHeader,
-          "bg-yellow-100": !scrollHeader,
-        }
-      )}
-    >
+    <header className="fixed top-0 left-0 w-full h-20 items-center p-4 z-50 bg-white">
       <nav className="container m-auto flex items-center justify-between text-gray-700">
         <a href="#">
           <Logo />
