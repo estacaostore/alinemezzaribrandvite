@@ -57,8 +57,8 @@ export function Header() {
             className={classNames(
               "fixed top-0 w-[70%] min-h-screen bg-white border-x-gray-800 drop-shadow-sm transition-all duration-300",
               {
-                "right-[-100%]": open === true,
-                "right-[0] fixed": open === false,
+                "right-[-100%]": open === false,
+                "right-[0] fixed": open === true,
               }
             )}
           >

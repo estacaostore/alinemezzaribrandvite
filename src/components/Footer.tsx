@@ -5,6 +5,7 @@ import {
   PaperPlaneTilt,
   PinterestLogo,
 } from "phosphor-react";
+import { Link } from "react-router-dom";
 import Logo from "./LogoAMB";
 
 export function Footer() {
@@ -32,7 +33,9 @@ export function Footer() {
         </div>
         <div className="flex flex-col md:flex-row gap-4 items-center">
           <div className="md:w-2/4 flex flex-col gap-6 mr-4">
-            <Logo />
+            <Link className="transition-all duration-300" to="/">
+              <Logo />
+            </Link>
             <div className="py-2">
               <p className="text-gray-600">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
@@ -158,7 +161,7 @@ export function Footer() {
           </div>
         </div>
         <div className="flex justify-between border-t-[1px] border-gray-400 py-2">
-          <span className="text-gray-400 text-sm">
+          <span className="text-gray-400 text-sm w-[60%]">
             Copyright @2022. All Rights Reserved. Designed with love by Anderson
           </span>
           <ul>
