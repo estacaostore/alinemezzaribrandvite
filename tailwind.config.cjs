@@ -7,9 +7,14 @@ module.exports = {
       gridTemplateColumns: {
         16: "1fr max-content",
       },
-    },
-    fontFamily: {
-      sans: "Oswald, sans-serif",
+      fontFamily: {
+        sans: "Roboto, sans-serif",
+      },
+      colors: {
+        yellow: {
+          100: "#dcce2f",
+        },
+      },
     },
   },
   variants: {

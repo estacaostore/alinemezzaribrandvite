@@ -4,6 +4,7 @@ import {
   InstagramLogo,
   PaperPlaneTilt,
   PinterestLogo,
+  WhatsappLogo,
 } from "phosphor-react";
 import { Link } from "react-router-dom";
 import Logo from "./LogoAMB";
@@ -14,7 +15,7 @@ export function Footer() {
       <div className="max-w-4xl flex flex-col gap-6 p-6">
         <div className="flex flex-col md:flex-col gap-2">
           <h3 className="flex items-center gap-2">
-            <Envelope />
+            <Envelope size={25} />
             Subscribe to newsletter
           </h3>
           <form action="" className="flex gap-3">
@@ -47,18 +48,39 @@ export function Footer() {
 
             <ul className="flex gap-2">
               <li>
-                <a href="#">
+                <a
+                  className="text-lg text-black hover:text-gray-500 transition-all duration-300"
+                  href="https://www.instagram.com/alinemezzaribrand/"
+                  target="_blank"
+                >
                   <InstagramLogo size={32} />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a
+                  className="text-lg text-black hover:text-gray-500 transition-all duration-300"
+                  href="https://www.facebook.com/alinemezzaribrand"
+                  target="_blank"
+                >
                   <FacebookLogo size={32} />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a
+                  className="text-lg text-black hover:text-gray-500 transition-all duration-300"
+                  href="https://br.pinterest.com/alinemezzaribrand/"
+                  target="_blank"
+                >
                   <PinterestLogo size={32} />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-lg text-black hover:text-gray-500 transition-all duration-300"
+                  href="https://api.whatsapp.com/send?1=pt_BR&phone=5545991355885"
+                  target="_blank"
+                >
+                  <WhatsappLogo size={32} />
                 </a>
               </li>
             </ul>

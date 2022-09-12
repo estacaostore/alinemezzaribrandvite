@@ -1,12 +1,15 @@
 import { Header } from "../components/Header";
-import { WhatsappLogo, FacebookLogo, InstagramLogo } from "phosphor-react";
 import { Footer } from "../components/Footer";
+import { Vendedor } from "../components/Vendedor";
+import { Porque } from "../components/Porque";
 
 export function Home() {
   return (
     <>
       <Header />
-      <main className="pt-24">
+      <main className="pt-24 antialiased">
+        <Porque />
+        <Vendedor />
         <Footer />
       </main>
     </>
