@@ -57,8 +57,8 @@ export function Porque() {
         </div>
         <div>
           <img
-            className="max-w-[100px] rounded-lg"
-            src="/images/Assunto.png"
+            className="max-w-[250px] rounded-lg"
+            src="/images/Cropped-Paloma-Off-Amb-.jpg"
             alt=""
           />
         </div>

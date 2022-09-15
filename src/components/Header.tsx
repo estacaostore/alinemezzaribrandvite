@@ -15,7 +15,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="containerm-auto fixed top-0 left-0 w-full h-20 items-center p-4 z-50 bg-white mb-2 md:mb-5">
+    <header className="containerm-auto fixed top-0 left-0 w-full h-20 items-center p-4 z-50 bg-white mb-2 md:mb-5 drop-shadow-lg">
       <div className="flex max-w-5xl gap-4 mx-auto items-center justify-between text-gray-700">
         <div className="ml-4 md:ml-0">
           <Link to="/">

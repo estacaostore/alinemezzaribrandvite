@@ -15,7 +15,7 @@ export function Footer() {
       <div className="max-w-4xl flex flex-col gap-6 p-6">
         <div className="flex flex-col md:flex-col gap-2">
           <h3 className="flex items-center gap-2">
-            <Envelope size={25} />
+            <Envelope size={25} className="text-gray-500" />
             Subscribe to newsletter
           </h3>
           <form action="" className="flex gap-3">
